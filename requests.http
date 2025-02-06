@@ -1,0 +1,5 @@
+### 1
+GET http://localhost:8080/api/service1/calculate?number=5
+
+### 2
+GET http://localhost:8081/api/service2/process?number=10
