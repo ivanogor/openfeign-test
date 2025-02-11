@@ -3,3 +3,21 @@ GET http://localhost:8080/api/service1/calculate?firstArgument=10&secondArgument
 
 ### 2
 GET http://localhost:8081/api/service2/calculate?firstArgument=10&secondArgument=15&thirdArgument=20
+
+### 3
+GET http://localhost:8080/api/service1
+
+### 4
+GET http://localhost:8080/api/service1?firstArgument=10
+
+### 5
+GET http://localhost:8080/api/service1?sortDirection=desc
+
+### 6
+GET http://localhost:8081/api/service2
+
+### 7
+GET http://localhost:8081/api/service2?firstArgument=10
+
+### 8
+GET http://localhost:8081/api/service2?sortDirection=desc

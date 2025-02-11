@@ -1,4 +1,4 @@
-package org.example.service1.model;
+package org.example.service2.model;
 
 import jakarta.persistence.*;
 import lombok.Data;
@@ -9,8 +9,8 @@ import java.time.LocalDateTime;
 @Data
 @Entity
 @NoArgsConstructor
-@Table(name = "sums")
-public class CalculationResult {
+@Table(name = "multiplications")
+public class MultiplicationCalculationResult {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
@@ -31,7 +31,7 @@ public class CalculationResult {
     @Column(name = "end_time")
     private LocalDateTime endTime;
 
-    public CalculationResult(Integer firstArgument, Integer secondArgument, Integer result, LocalDateTime startTime, LocalDateTime endTime) {
+    public MultiplicationCalculationResult(Integer firstArgument, Integer secondArgument, Integer result, LocalDateTime startTime, LocalDateTime endTime) {
         this.firstArgument = firstArgument;
         this.secondArgument = secondArgument;
         this.result = result;
