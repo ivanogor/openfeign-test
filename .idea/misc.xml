@@ -10,12 +10,14 @@
         <option value="$PROJECT_DIR$/service1_contracts/pom.xml" />
         <option value="$PROJECT_DIR$/service_contracts/pom.xml" />
         <option value="$PROJECT_DIR$/openFeignTEST/pom.xml" />
+        <option value="$PROJECT_DIR$/service3/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/openFeignTEST/pom.xml" />
         <option value="$PROJECT_DIR$/service1-contracts/pom.xml" />
+        <option value="$PROJECT_DIR$/service3/pom.xml" />
       </set>
     </option>
   </component>

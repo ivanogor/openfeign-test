@@ -1,5 +1,5 @@
 ### 1
-GET http://localhost:8080/api/service1/calculate?number=5
+GET http://localhost:8080/api/service1/calculate?firstArgument=10&secondArgument=15
 
 ### 2
-GET http://localhost:8081/api/service2/process?number=10
+GET http://localhost:8081/api/service2/calculate?firstArgument=10&secondArgument=15&thirdArgument=20
